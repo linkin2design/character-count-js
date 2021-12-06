@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Total Character Counter</title>
+</head>
+
+<body>
+    <marquee behavior="" direction="" onmouseover="this.stop()" onmouseout="this.start()">
+        Would you like to count
+    </marquee>
+    <div class="main">
+        <div class="main-container">
+            <h2>total character counter</h2>
+            <textarea placeholder="please leave your massage" id="inputArea" onkeyup="totalChars()"></textarea>
+            <p>total character:<span id="total"></span></p>
+            <p>remain character:<span id="SubResult"></span></p>
+        </div>
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
